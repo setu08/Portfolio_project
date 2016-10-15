@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    /*outline: 1px solid red !important;*/
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding-bottom: 20px;
+}
+h1 {
+    font-size: 2.25em;
+}
+h3 {
+    font-size: 1.5em;
+}
+a {
+    color: #2d3c49;
+}
+.container {
+    max-width: 1115px;
+}
+.separator {
+    height: 4px;
+    background-color: #7d97ad;
+    margin: 22px 0;
+}
+.profile-pic {
+    margin-top: 3vh;
+}
+.profile-name {
+    color: #504f4f;
+    font-weight: normal;
+    font-size: 3.125em;
+}
+.profession {
+    color: #504f4f;
+}
+.sub-heading {
+    color: #7d97ad;
+    font-size: 1.625em;
+    margin-top: 20px;
+    margin-bottom: 14px;
+    padding-left: 12px;
+}
+.work-text {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #2d3c49;
+    margin-top: 2vh;
+}
+.portfolio-image {
+    width: 343px;
+    height: auto;
+}
+figcaption {
+    margin-top: 0.5vh;
+    font-size: 1em;
+    text-align: center;
+}
+/*Social icons*/
+
+.social-icons {
+    margin-left: 26vw;
+    margin-top: 3vh;
+}
+i {
+    display: inline-block;
+    margin-right: 0.5em;
+}
+/*End social Icons*/
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 991px) {
+    .profile-name {
+        font-size: 1.3em;
+    }
+    .profession {
+        font-size: 1em;
+    }
+    .sub-heading {
+        font-size: 1.5em;
+    }
+    .work-text {
+        font-size: 1em;
+    }
+    .portfolio-image {
+        width: 300px;
+    }
+    .col-xs-4 {
+        min-width: 100%;
+        margin-top: 3vh;
+    }
+    .social-icons {
+        margin-left: 15vw;
+    }
+}
+@media screen and (max-width: 360px) {
+    .profile-name {
+        font-size: 1em;
+    }
+    .profession {
+        font-size: 0.7em;
+    }
+    .sub-heading {
+        font-size: 1.2em;
+    }
+    .work-text {
+        font-size: 1em;
+    }
+    .portfolio-image {
+        width: 280px;
+    }
+    .col-xs-4 {
+        min-width: 100%;
+        margin-top: 3vh;
+    }
+    .social-icons {
+        margin-left: 8.7vw;
+    }
+}
+/*IPAD SPECIFIC MEDIA QUERY*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .profile-name {
+        font-size: 3em;
+    }
+    .profession {
+        font-size: 2em;
+    }
+    .sub-heading {
+        font-size: 2.5em;
+    }
+    .work-text {
+        font-size: 2em;
+    }
+    .portfolio-image {
+        width: 70vw;
+    }
+    .col-xs-4 {
+        margin-top: 3vh;
+        min-width: 100%;
+    }
+    a {
+        font-size: 2em;
+    }
+}
+/*IPAD SPECIFIC QUERY END*/
+/*MEDIA QUERY END*/
